@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: blue;
+        }
+        table{
+            margin: auto;
+            background-color: black;
+            border-radius: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        #div1{
+            width: 590px;
+            height: 280px;
+            margin-left: 100px;
+            margin-top: 50px;
+            border: 5px solid black;
+            border-radius: 10px;
+        }
+        .label{
+            margin-left: 100px;
+            margin-bottom: 100px;
+        }
+        #Next{
+            margin-left: 250px;
+        }
+        body{
+            background-color: #FFAC76;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Welcome To Our Pizza Shop</h1></center>
+    <table width="40%" height="50px" cellspacing="0">
+        <tr align="center">
+            <td><a href="1.html">Home</a></td>
+            <td><a href="2.html">Cheese Pizza</a></td>
+            <td><a href="3.html">Seafood Pizza</a></td>
+            <td><a href="4.html">Pepperoni Pizza</a></td>
+            <td><a href="5.html">Pre Order</a></td>
+        </tr>
+    </table><br><br>
+    <div id="div1">
+        <br>
+        <label for="Full name" class="label">Your Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required="required" placeholder="Enter your Your Nmae"> <br> <br>
+
+        <label for="Email" class="label">Email Name</label>&nbsp;&nbsp;&nbsp;
+        <input type="email" required="required" required="required" placeholder="Enter your Email"> <br> <br>
+
+        <label for="Password" class="label">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" required="required" placeholder="Enter your Password"> <br> <br>
+
+        <label for="Phone number" class="label">Phone number</label>
+        <input type="number" required="required" placeholder="Enter your Phone number"> <br> <br>
+        
+        <label for="Garder" class="label">Garder</label>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Other
+
+            <br>
+            
+            <label for="Your order" class="label">Your order</label>
+        <input type="checkbox">Cheese Pizza
+        <input type="checkbox">Seafood Pizza
+        <input type="checkbox">Pepperoni Pizza
+        
+        <br>
+
+        <label for="Your order" class="label">Your Count</label>
+        <input type="number" placeholder="Count" style="width: 100px;">
+        <input type="number" placeholder="Count" style="width: 100px;">
+        <input type="number" placeholder="Count" style="width: 100px;">
+
+        <br>
+        <br>
+        
+        <input type="submit" value="Order Now" id="Next"> 
+    </div>
+</body>
+</html>
